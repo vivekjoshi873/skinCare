@@ -7,7 +7,7 @@ import Layout from './Layouts/Layout'
 import CurlyHair from './pages/CurlyHair'
 import Suncream from './pages/Suncream'
 import TanningCream from './pages/TanningCream'
-import Facewash from './pages/Facewash'
+import Facewash from './pages/FaceWash'
 import AcneCream from './pages/AcneProne'
 import Cicacream from './pages/CicaCream'
 
