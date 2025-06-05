@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { AddCart } from '../../context/AddCart';
-import '../../index.css'; // <-- make sure to import your CSS file
+import '../../index.css'; 
 
 function Cart() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -79,7 +79,7 @@ function Cart() {
           <div className='px-4 py-4 border-t mt-auto'>
             <div className="flex justify-between items-center mb-2">
               <p className="font-bold">Total:</p>
-              <p className="font-bold">€{cart.reduce((total, item) => total + item.price * (item.quantity || 1), 0)}</p>
+              <p className="font-bold">₹{cart.reduce((total, item) => total + item.price * (item.quantity || 1), 0)}</p>
             </div>
             <div className='flex justify-between items-center mb-4'>
               <p className='text-gray-400 text-sm font-medium'>Shipping</p>
@@ -87,7 +87,7 @@ function Cart() {
             </div>
             <div>
               <button className=' bg-black text-white w-full py-3 sm:py-4 px-4 text-sm sm:text-base font-medium rounded-md tracking-widest '>
-                Process to Checkout — €{cart.reduce((total, item) => total + item.price * (item.quantity || 1), 0)}
+                Process to Checkout — ₹{cart.reduce((total, item) => total + item.price * (item.quantity || 1), 0)}
               </button>
             </div>
           </div>

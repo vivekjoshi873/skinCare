@@ -35,7 +35,7 @@ const AddCartProvider =({children})=>{
                 ? { ...item, quantity: item.quantity - 1 }
                 : item
             )
-            .filter(item => item.quantity > 0) // remove if quantity is 0
+            .filter(item => item.quantity > 0)
         );
       };
       

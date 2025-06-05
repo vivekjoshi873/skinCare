@@ -15,7 +15,7 @@ function CicaCream() {
   const product = {
     id: 5,
     name: "Cica Cream",
-    price: 17,
+    price: 1250,
     image: cicaCream,
     description: "SOS cream based on water in oil that repairs and protects irritated or damaged skin",
     quantity: 1
@@ -122,7 +122,7 @@ function CicaCream() {
                 }}
                 className='bg-black text-white px-4 py-2 rounded-md w-full h-16 font-semibold text-md nav-link-curly'
               >
-                Add to Cart — €17
+                Add to Cart — ₹1250 
               </button>
               <p className='mt-4'>
                 <svg width="14" height="10" viewBox="0 0 14 10" fill="none" className="mr-3 inline">
@@ -134,7 +134,7 @@ function CicaCream() {
                 <svg width="14" height="10" viewBox="0 0 14 10" fill="none" className="mr-3 inline">
                   <path d="M1 3.61768L5.43176 8.04944L12.7424 0.738892" stroke="currentColor" strokeWidth="2" />
                 </svg>
-                <span className='tracking-wide'>Free shipping from €40.</span>
+                <span className='tracking-wide'>Free shipping from  ₹400.</span>
               </p>
             </div>
           </div>

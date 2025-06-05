@@ -15,7 +15,7 @@ function TanningCream() {
   const product = {
     id: 3,
     name: "Tanning Cream",
-    price: 49,
+    price: 895,
     image: tanningCream,
     description: "Tanning Cream",
     quantity: 1
@@ -103,9 +103,9 @@ function TanningCream() {
                 onClick={() => {
                   addtoCart(product);
                 }}
-                className='bg-black font-sans text-white px-4  py-2 rounded-md w-[95%] md:w-[100%] h-14 md:h-16 font-semibold text-sm md:text-md nav-link-curly'>Add to Cart — €49</button>
+                className='bg-black font-sans text-white px-4  py-2 rounded-md w-[95%] md:w-[100%] h-14 md:h-16 font-semibold text-sm md:text-md nav-link-curly'>Add to Cart — ₹895</button>
               <p className='mt-4 text-sm md:text-base'> <svg width="14" height="10" viewBox="0 0 14 10" fill="none" className="mr-3 inline"><path d="M1 3.61768L5.43176 8.04944L12.7424 0.738892" stroke="currentColor" strokeWidth="2"></path></svg> <span className='tracking-wide'>Ordered before 10pm, shipped today.</span></p>
-              <p className='mt-2 text-sm md:text-base'> <svg width="14" height="10" viewBox="0 0 14 10" fill="none" className="mr-3 inline"><path d="M1 3.61768L5.43176 8.04944L12.7424 0.738892" stroke="currentColor" strokeWidth="2"></path></svg> <span className='tracking-wide'>Free shipping from €40.</span></p>
+              <p className='mt-2 text-sm md:text-base'> <svg width="14" height="10" viewBox="0 0 14 10" fill="none" className="mr-3 inline"><path d="M1 3.61768L5.43176 8.04944L12.7424 0.738892" stroke="currentColor" strokeWidth="2"></path></svg> <span className='tracking-wide'>Free shipping from ₹400.</span></p>
             </div>
           </div>
         </div>

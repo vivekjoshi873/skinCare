@@ -41,15 +41,15 @@ function AllProducts() {
   ];
 
   const products = [
-    { id: '1', name: 'Curly Hair Routine', price: 52, image: curlyHair, hoverImage: hoverCurlyHair, quantity: 1, category: 'routine', path: '/curly-hair' },
-    { id: '2', name: 'Suncream SPF 50 - 50ml', price: 24, image: suncreen, hoverImage: suncreamHover, quantity: 1, category: 'sunscreen', path: '/suncream' },
-    { id: '3', name: 'Tanning Cream', price: 22, image: tanningCream, hoverImage: tanningCreamHover, quantity: 1, category: 'routine', path: '/tanning-cream' },
-    { id: '4', name: 'Acne Prone Skin Cream', price: 24, image: acneCream, hoverImage: acneCreamHover, quantity: 1, category: 'acneprone', path: '/acnecream' },
-    { id: '5', name: 'Cica Cream', price: 17, image: cicacream, hoverImage: cicacreamHover, quantity: 1, category: 'moisturizing', path: '/cicacream' },
-    { id: '6', name: 'Face Wash', price: 19, image: faceWash, hoverImage: faceWashHover, quantity: 1, category: 'facewash', path: '/face-wash' },
-    { id: '7', name: 'Tanning Duo', price: 49, image: tanningCream, hoverImage: tanningCreamHover, quantity: 1, category: 'routine' },
-    { id: '8', name: 'Tanning Routine', price: 60, image: tanningDrop2, hoverImage: tanningDropHover, quantity: 1, category: 'routine' },
-    { id: '9', name: 'Anti-aging Tanning Drops', price: 52, image: tanningDrop3, hoverImage: tanningDrop3Hover, quantity: 1, category: 'anti-aging' },
+    { id: '1', name: 'Curly Hair Routine', price: 1200, image: curlyHair, hoverImage: hoverCurlyHair, quantity: 1, category: 'routine', path: '/curly-hair' },
+    { id: '2', name: 'Suncream SPF 50 - 50ml', price: 1140 , image: suncreen, hoverImage: suncreamHover, quantity: 1, category: 'sunscreen', path: '/suncream' },
+    { id: '3', name: 'Tanning Cream', price: 895, image: tanningCream, hoverImage: tanningCreamHover, quantity: 1, category: 'routine', path: '/tanning-cream' },
+    { id: '4', name: 'Acne Prone Skin Cream', price: 1350 , image: acneCream, hoverImage: acneCreamHover, quantity: 1, category: 'acneprone', path: '/acnecream' },
+    { id: '5', name: 'Cica Cream', price: 1250 , image: cicacream, hoverImage: cicacreamHover, quantity: 1, category: 'moisturizing', path: '/cicacream' },
+    { id: '6', name: 'Face Wash', price: 750, image: faceWash, hoverImage: faceWashHover, quantity: 1, category: 'facewash', path: '/face-wash' },
+    { id: '7', name: 'Tanning Duo', price: 2450, image: tanningCream, hoverImage: tanningCreamHover, quantity: 1, category: 'routine' },
+    { id: '8', name: 'Tanning Routine', price: 3100, image: tanningDrop2, hoverImage: tanningDropHover, quantity: 1, category: 'routine' },
+    { id: '9', name: 'Anti-aging Tanning Drops', price: 2980, image: tanningDrop3, hoverImage: tanningDrop3Hover, quantity: 1, category: 'anti-aging' },
   ];
   const filteredProducts = activeFilter === 'all'
     ? products
@@ -103,7 +103,7 @@ function AllProducts() {
                 </div>
               </div>
               <div>
-                <h3 className="text-sm sm:text-md font-medium tracking-wide">{product.name} — €{product.price}</h3>
+                <h3 className="text-sm sm:text-md font-medium tracking-wide">{product.name} — ₹{product.price}</h3>
               </div>
             </Link>
           ))}

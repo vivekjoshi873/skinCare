@@ -37,15 +37,15 @@ function Home() {
   const { addtoCart } = useContext(AddCart);
 
   const products = [
-    { id: '1', name: 'Curly Hair Routine', price: 52, image: curlyHair, hoverImage: hoverCurlyHair, quantity: 1 },
-    { id: '2', name: 'Suncream SPF 50 - 50ml', price: 24, image: suncreen, hoverImage: suncreamHover, quantity: 1 },
-    { id: '3', name: 'Tanning Cream', price: 22, image: tanningCream, hoverImage: tanningCreamHover, quantity: 1 },
-    { id: '4', name: 'Acne Prone Skin Cream', price: 24, image: acneCream, hoverImage: acneCreamHover, quantity: 1 },
-    { id: '5', name: 'Cica Cream', price: 17, image: cicacream, hoverImage: cicacreamHover, quantity: 1 },
-    { id: '6', name: 'Face Wash', price: 19, image: faceWash, hoverImage: faceWashHover, quantity: 1 },
-    { id: '7', name: 'Tanning Duo', price: 49, image: tanningCream, hoverImage: tanningCreamHover, quantity: 1 },
-    { id: '8', name: 'Tanning Routine', price: 60, image: tanningDrop2, hoverImage: tanningDropHover, quantity: 1 },
-    { id: '9', name: 'Anti-aging Tanning Drops', price: 52, image: tanningDrop3, hoverImage: tanningDrop3Hover, quantity: 1 },
+    { id: '1', name: 'Curly Hair Routine', price: 1200, image: curlyHair, hoverImage: hoverCurlyHair, quantity: 1 },
+    { id: '2', name: 'Suncream SPF 50 - 50ml', price: 1140 , image: suncreen, hoverImage: suncreamHover, quantity: 1 },
+    { id: '3', name: 'Tanning Cream', price: 895, image: tanningCream, hoverImage: tanningCreamHover, quantity: 1 },
+    { id: '4', name: 'Acne Prone Skin Cream', price: 1350 , image: acneCream, hoverImage: acneCreamHover, quantity: 1 },
+    { id: '5', name: 'Cica Cream', price: 1250 , image: cicacream, hoverImage: cicacreamHover, quantity: 1 },
+    { id: '6', name: 'Face Wash', price: 750, image: faceWash, hoverImage: faceWashHover, quantity: 1 },
+    { id: '7', name: 'Tanning Duo', price: 2450, image: tanningCream, hoverImage: tanningCreamHover, quantity: 1 },
+    { id: '8', name: 'Tanning Routine', price: 3100, image: tanningDrop2, hoverImage: tanningDropHover, quantity: 1 },
+    { id: '9', name: 'Anti-aging Tanning Drops', price: 2980, image: tanningDrop3, hoverImage: tanningDrop3Hover, quantity: 1 },
   ];
   const productSliderRef = useRef(null);
   const reviewSliderRef = useRef(null);
@@ -117,7 +117,7 @@ function Home() {
                       />
                     </Link>
                     <div className='text-base relative group'>
-                      <h5 className='bg-white tracking-widest font-medium text-sm'> Curly Hair Routine  <br />— €52</h5>
+                      <h5 className='bg-white tracking-widest font-medium text-sm'> Curly Hair Routine  <br />— ₹1200</h5>
                       <button
                         onClick={() => handleAddToCart(products[0])}
                         className='absolute -top-12 right-2 bg-black text-white p-2 px-3 rounded-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center gap-1 text-sm font-medium'>
@@ -139,7 +139,7 @@ function Home() {
                       />
                     </Link>
                     <div className='text-base relative group'>
-                      <h5 className='bg-white tracking-widest font-medium text-sm '> Suncream  <br />SPF 50 - 50ml  — €24</h5>
+                      <h5 className='bg-white tracking-widest font-medium text-sm '> Suncream  <br />SPF 50 - 50ml  — ₹1140 </h5>
                       <button
                         onClick={() => handleAddToCart(products[1])}
                         className='absolute -top-12 right-2 bg-black text-white p-2 px-3 rounded-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center gap-1 text-sm font-medium'>
@@ -161,7 +161,7 @@ function Home() {
                       />
                     </Link>
                     <div className='text-base relative group'>
-                      <h5 className='bg-white tracking-widest font-medium text-sm'> Tanning Cream <br /> — €22</h5>
+                      <h5 className='bg-white tracking-widest font-medium text-sm'> Tanning Cream <br /> — ₹895</h5>
                       <button
                         onClick={() => handleAddToCart(products[2])}
                         className='absolute -top-14 right-2 bg-black text-white p-2 px-3 rounded-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center gap-1 text-sm font-medium'>
@@ -183,7 +183,7 @@ function Home() {
                       />
                     </Link>
                     <div className='text-base relative group'>
-                      <h5 className='bg-white tracking-widest font-medium text-sm'> Acne Prone Skin Cream <br />  — €24</h5>
+                      <h5 className='bg-white tracking-widest font-medium text-sm'> Acne Prone Skin Cream <br />  — ₹1350 </h5>
                       <button
                         onClick={() => handleAddToCart(products[3])}
                         className='absolute -top-14 right-2 bg-black text-white p-2 px-3 rounded-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center gap-1 text-sm font-medium'>
@@ -205,7 +205,7 @@ function Home() {
                       />
                     </Link>
                     <div className='text-base relative group'>
-                      <h5 className='bg-white tracking-widest font-medium text-sm'> Cica Cream <br />— €17</h5>
+                      <h5 className='bg-white tracking-widest font-medium text-sm'> Cica Cream <br />— ₹1250 </h5>
                       <button
                         onClick={() => handleAddToCart(products[4])}
                         className='absolute -top-14 right-2 bg-black text-white p-2 px-3 rounded-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center gap-1 text-sm font-medium'>
@@ -227,7 +227,7 @@ function Home() {
                       />
                     </Link>
                     <div className='text-base relative group'>
-                      <h5 className='bg-white tracking-widest font-medium text-sm'> Face Wash<br />  — €19 </h5>
+                      <h5 className='bg-white tracking-widest font-medium text-sm'> Face Wash<br />  — ₹750 </h5>
                       <button
                         onClick={() => handleAddToCart(products[5])}
                         className='absolute -top-14 right-2 bg-black text-white p-2 px-3 rounded-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center gap-1 text-sm font-medium'>
@@ -331,7 +331,7 @@ function Home() {
                   </div>
                   <li className='h-[300px] flex items-end pb-6 md:pb-0'>
                     <Link to='/' className='w-full flex justify-start pl-7'>
-                      <Link to='/' className='font-semibold  items-center justify-center p-2 font-sans md:mb-12 hidden md:flex'>Shop here <GoArrowRight className='ml-1' />
+                      <Link to='/' className='font-semibold  items-center justify-center p-8 font-sans md:mb-12 hidden md:flex'>Shop here <GoArrowRight className='ml-1' />
                       </Link>
                     </Link>
                   </li>
@@ -380,7 +380,7 @@ function Home() {
                 />
               </Link>
               <div className='text-base relative group'>
-                <h5 className='bg-white tracking-widest font-medium text-sm'>Tanning Duo — €49</h5>
+                <h5 className='bg-white tracking-widest font-medium text-sm'>Tanning Duo — ₹2450</h5>
                 <button className='absolute -top-12 right-2 bg-black text-white p-2 px-3 rounded-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center gap-1 text-sm font-medium'>
                   Add <IoMdAdd />
                 </button>
@@ -400,7 +400,7 @@ function Home() {
                 />
               </Link>
               <div className='text-base relative group'>
-                <h5 className='bg-white tracking-widest font-medium text-sm'>Tanning Routine— €60</h5>
+                <h5 className='bg-white tracking-widest font-medium text-sm'>Tanning Routine— ₹3100</h5>
                 <button className='absolute -top-12 right-2 bg-black text-white p-2 px-3 rounded-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center gap-1 text-sm font-medium'>
                   Add <IoMdAdd />
                 </button>
@@ -420,7 +420,7 @@ function Home() {
                 />
               </Link>
               <div className='text-base relative group'>
-                <h5 className='bg-white tracking-widest font-medium text-sm'>Anti-aging Tanning Drops — €52</h5>
+                <h5 className='bg-white tracking-widest font-medium text-sm'>Anti-aging Tanning Drops —₹2980</h5>
                 <button className='absolute -top-12 right-2 bg-black text-white p-2 px-3 rounded-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center gap-1 text-sm font-medium'>
                   Add <IoMdAdd />
                 </button>

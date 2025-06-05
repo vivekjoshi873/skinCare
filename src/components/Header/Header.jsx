@@ -9,8 +9,8 @@ function Header({ showHero = true }) {
     const [count, setCount] = useState(0)
     const messages = [
         "Order before 10pm, shipped today",
-        "Free delivery from €40",
-        "Free gift from €75",
+        "Free delivery from ₹400",
+        "Free gift from ₹800",
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -55,7 +55,7 @@ function Header({ showHero = true }) {
 
                 <Navbar count={count} className={showHero ? "absolute top-20 left-0" : ""} />
                 <div className="absolute right-0 md:top-[29%] left-24 md:left-40 z-10 text-black suncreen   top-40 "  >
-                    <p className="text-xl text-gray-800 font-medium w-60">★★★★☆ <span className='text-sm '>13,756 reviews</span></p>
+                    <p className="text-xl text-gray-800 font-medium w-60">★★★★☆ <span className='text-sm '>14,766 reviews</span></p>
                     <h3 className='md:text-5xl text-3xl md:w-80 w-44 mt-10 font-medium my-4 leading-tight semibold text-center md:text-left'>Protect your skin against the sun.</h3>
                     <div className='md:mt-8 mt-5 '>
                         <NavLink to='/'

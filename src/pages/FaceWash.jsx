@@ -15,7 +15,7 @@ function FaceWash() {
   const product = {
     id: 6,
     name: "Face Wash",
-    price: 19,
+    price:  750,
     image: faceWash,
     description: "Face Wash",
     quantity: 1
@@ -121,7 +121,7 @@ function FaceWash() {
                 }}
                 className='bg-black text-white px-4 py-2 rounded-md w-full h-16 font-semibold text-md nav-link-curly'
               >
-                Add to Cart — €19
+                Add to Cart —  ₹750
               </button>
               <p className='mt-4'>
                 <svg width="14" height="10" viewBox="0 0 14 10" fill="none" className="mr-3 inline">
@@ -133,7 +133,7 @@ function FaceWash() {
                 <svg width="14" height="10" viewBox="0 0 14 10" fill="none" className="mr-3 inline">
                   <path d="M1 3.61768L5.43176 8.04944L12.7424 0.738892" stroke="currentColor" strokeWidth="2" />
                 </svg>
-                <span className='tracking-wide'>Free shipping from €40.</span>
+                <span className='tracking-wide'>Free shipping from  ₹400.</span>
               </p>
             </div>
           </div>
