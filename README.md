@@ -3,6 +3,8 @@
 A sleek, responsive skincare product page built using **React**, **Vite**, and **Tailwind CSS**.  
 It features a scrollable product card layout for iPad devices, dynamic hover transitions, and interactive "Add to Cart" buttons using icons.
 
+🌐 **Live Demo**: [https://skin-care-b1lh.vercel.app/](https://skin-care-b1lh.vercel.app/)
+
 ---
 
 ## 🚀 Tech Stack
